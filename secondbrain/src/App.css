@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+/* główny grid */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "one"
+    "two"
+    "three"
+    "four"
+    "five";
+
+  width: clamp(75%, 70rem, 90%);
+  margin-inline: auto;
+  padding-block: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* deklaracje */
+.cell:nth-child(1) {
+  grid-area: one;
+}
+.cell:nth-child(2) {
+  grid-area: two;
+}
+.cell:nth-child(3) {
+  grid-area: three;
+}
+.cell:nth-child(4) {
+  grid-area: four;
+}
+.cell:nth-child(5) {
+  grid-area: five;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+@media screen and (min-width: 25em) {
+  .grid {
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five";
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 50em) {
+  .grid {
+    grid-template-areas:
+      "one one"
+      "two three"
+      "four five";
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (min-width: 75em) {
+  .grid {
+    grid-template-areas:
+      "one two three"
+      "one four five";
   }
 }
