@@ -5,9 +5,9 @@ React (class components) + TypeScript
 
 --------------------------
 
-### Github Pages
+## Github Pages
 
-* Code
+ Code
   + `package.json` 
     + "homepage": "https://match00.github.io/SecondBrainApp/",
   + npm install --save gh-pages
@@ -16,6 +16,6 @@ React (class components) + TypeScript
     + "deploy": "gh-pages -d build",
   + npm run deploy
 
-* GitHub
+ GitHub
   + Pages
     + `branch`  gh-pages
