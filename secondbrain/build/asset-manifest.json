@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.7280c057.css",
-    "main.js": "/static/js/main.f3c18ad4.js",
-    "index.html": "/index.html",
-    "main.7280c057.css.map": "/static/css/main.7280c057.css.map",
-    "main.f3c18ad4.js.map": "/static/js/main.f3c18ad4.js.map"
+    "main.css": "/SecondBrainApp/static/css/main.7280c057.css",
+    "main.js": "/SecondBrainApp/static/js/main.f3c18ad4.js",
+    "index.html": "/SecondBrainApp/index.html",
+    "main.7280c057.css.map": "/SecondBrainApp/static/css/main.7280c057.css.map",
+    "main.f3c18ad4.js.map": "/SecondBrainApp/static/js/main.f3c18ad4.js.map"
   },
   "entrypoints": [
     "static/css/main.7280c057.css",
