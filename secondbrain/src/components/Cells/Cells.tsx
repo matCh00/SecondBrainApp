@@ -8,7 +8,7 @@ export class Cells extends Component {
     return (
       <>
         <Cell 
-          classes='bg-primary clr-base' 
+          classes='bg-primary' 
           content={
             <>
               <h1>Angular</h1>
@@ -19,7 +19,7 @@ export class Cells extends Component {
           />
 
         <Cell 
-          classes='bg-primary clr-base' 
+          classes='bg-primary' 
           content={
             <>
               <h1>CSS</h1>
@@ -30,7 +30,7 @@ export class Cells extends Component {
           />
 
         <Cell 
-          classes='bg-primary clr-base' 
+          classes='bg-primary' 
           content={
             <>
               <h1>React</h1>
@@ -41,7 +41,7 @@ export class Cells extends Component {
           />
 
         <Cell   
-          classes='bg-primary clr-base' 
+          classes='bg-primary' 
           content={
             <>
               <h1>React Native</h1>
@@ -52,7 +52,7 @@ export class Cells extends Component {
           />
 
         <Cell  
-          classes='bg-primary clr-base' 
+          classes='bg-primary' 
           content={
             <>
               <h1>Flutter</h1>

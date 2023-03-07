@@ -1,22 +1,26 @@
 a {
-  color: var(--color-primary-dark);
+  color: var(--color-text-primary);
   background: var(--color-secondary);
 
   cursor: pointer;
 
-  padding: .5rem;
-  border-radius: 1rem;
+  padding: .7rem;
+  border-radius: 2rem;
   margin-top: 1rem;
-
-  font-size: 1.1em;
 }
 
 a:hover {
   background: var(--color-secondary-dark);
 }
 
+
+h1 {
+  color: var(--color-text-primary);
+}
+
+
 h4 {
-  color: var(--color-base-dark);
+  color: var(--color-text-secondary);
   
   margin-block: 1rem;
 }

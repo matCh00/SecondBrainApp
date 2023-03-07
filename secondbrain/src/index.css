@@ -1,14 +1,11 @@
 :root {
-  --color-bg: #edf2f8;
-  --color-base: #ffffff;
-  --color-primary: #191645;
-  --color-secondary: #43c6ac;
-  --color-base-light: #ffffff;
-  --color-base-dark: #cccccc;
-  --color-primary-light: #302d58;
-  --color-primary-dark: #0d0b23;
-  --color-secondary-light: #a1e3d6;
-  --color-secondary-dark: #2f8b78;
+  --color-bg: #E0C097;
+  --color-base: #2D2424;
+  --color-primary: #5C3D2E;
+  --color-secondary: #B85C38;
+  --color-secondary-dark: #8f482c;
+  --color-text-primary: #ffdfb5;
+  --color-text-secondary: #b69c7b;
   --ff: "Barlow Semi Condensed", sans-serif;
   --fw: 500;
 }
@@ -48,45 +45,26 @@ body {
 .bg-base {
   background: var(--color-base);
 }
-.bg-base-light {
-  background: var(--color-base-light);
-}
-.bg-base-dark {
-  background: var(--color-base-dark);
-}
 .bg-primary {
   background: var(--color-primary);
-}
-.bg-primary-light {
-  background: var(--color-primary-light);
-}
-.bg-primary-dark {
-  background: var(--color-primary-dark);
 }
 .clr-base {
   color: var(--color-base);
 }
-.clr-base-light {
-  color: var(--color-base-light);
-}
-.clr-base-dark {
-  color: var(--color-base-dark);
-}
 .clr-primary {
   color: var(--color-primary);
-}
-.clr-primary-light {
-  color: var(--color-primary-light);
-}
-.clr-primary-dark {
-  color: var(--color-primary-dark);
 }
 .clr-secondary {
   color: var(--color-secondary);
 }
-.clr-secondary-light {
-  color: var(--color-secondary-light);
+.clr-text-primary {
+  color: var(--color-text-primary);
 }
-.clr-secondary-dark {
-  color: var(--color-secondary-dark);
+.clr-text-secondary {
+  color: var(--color-text-secondary);
+}
+
+
+h4 {
+  font-weight: var(--fw);
 }
