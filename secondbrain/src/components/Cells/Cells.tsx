@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Cell from '../Cell/Cell';
 import './cells.css';
 
@@ -13,7 +14,7 @@ export class Cells extends Component {
             <>
               <h1>Angular</h1>
               <h4>Notatki z Angulara</h4>
-              <a href='/angular'>Pokaż</a>
+              <Link className='link' to="/SecondBrainApp/angular">Pokaż</Link>
             </>
             } 
           />
@@ -24,7 +25,7 @@ export class Cells extends Component {
             <>
               <h1>CSS</h1>
               <h4>Notatki z CSS</h4>
-              <a href='/css'>Pokaż</a>
+              <Link className='link' to="/SecondBrainApp/css">Pokaż</Link>
             </>
             } 
           />
@@ -35,7 +36,7 @@ export class Cells extends Component {
             <>
               <h1>React</h1>
               <h4>Notatki z Reacta</h4>
-              <a href='/react'>Pokaż</a>
+              <Link className='link' to="/SecondBrainApp/react">Pokaż</Link>
             </>
             } 
           />
@@ -46,7 +47,7 @@ export class Cells extends Component {
             <>
               <h1>React Native</h1>
               <h4>Notatki z React Native</h4>
-              <a href='/reactnative'>Pokaż</a>
+              <Link className='link' to="/SecondBrainApp/reactnative">Pokaż</Link>
             </>
             } 
           />
@@ -57,7 +58,7 @@ export class Cells extends Component {
             <>
               <h1>Flutter</h1>
               <h4>Notatki z Fluttera</h4>
-              <a href='/flutter'>Pokaż</a>
+              <Link className='link' to="/SecondBrainApp/flutter">Pokaż</Link>
             </>
             } 
           />

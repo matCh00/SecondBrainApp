@@ -1,4 +1,4 @@
-a {
+.link {
   color: var(--color-text-primary);
   background: var(--color-secondary);
 
@@ -9,7 +9,7 @@ a {
   margin-top: 1rem;
 }
 
-a:hover {
+.link:hover {
   background: var(--color-secondary-dark);
 }
 

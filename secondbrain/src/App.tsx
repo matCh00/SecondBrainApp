@@ -1,18 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './app.css';
-import Cells from './components/Cells/Cells';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import HomePage from './pages/HomePage/HomePage';
+import NotesPage from './pages/NotesPage/NotesPage';
 
-export class App extends Component {
+const App = () => {
 
-  public render() {
-    return (
-      <main className='grid'>
+  return (
+    <div>
 
-        <Cells />
+      <BrowserRouter>
 
-      </main>
-    )
-  }
+        <Routes>
+          <Route path="/SecondBrainApp/" element={<HomePage />} />
+          <Route path="/SecondBrainApp/:id" element={<NotesPage />} />
+        </Routes>
+
+      </BrowserRouter>
+
+    </div>
+  )
 }
 
 export default App;
