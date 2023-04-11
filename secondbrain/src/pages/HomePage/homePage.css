@@ -8,7 +8,9 @@
     "two"
     "three"
     "four"
-    "five";
+    "five"
+    "six"
+    "seven";
 
   width: clamp(75%, 70rem, 90%);
   margin-inline: auto;
@@ -32,6 +34,12 @@
 .cell:nth-child(5) {
   grid-area: five;
 }
+.cell:nth-child(6) {
+  grid-area: six;
+}
+.cell:nth-child(7) {
+  grid-area: seven;
+}
 
 
 @media screen and (min-width: 25em) {
@@ -41,7 +49,9 @@
       "two"
       "three"
       "four"
-      "five";
+      "five"
+      "six"
+      "seven";
   }
 }
 
@@ -50,14 +60,15 @@
     grid-template-areas:
       "one one"
       "two three"
-      "four five";
+      "four five"
+      "seven six";
   }
 }
 
 @media screen and (min-width: 75em) {
   .grid {
     grid-template-areas:
-      "one two three"
-      "one four five";
+      "one two three seven"
+      "one four five six";
   }
 }

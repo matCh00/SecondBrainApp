@@ -1,13 +1,19 @@
 .cell {
   font-size: 1.1em;
   
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.cell-content {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  
-  padding: 3rem;
-  border-radius: 1rem;
 
   white-space: nowrap;
+}
+
+.cell:hover {
+  background-color: var(--color-primary-dark);
 }

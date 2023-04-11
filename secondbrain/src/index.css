@@ -2,6 +2,7 @@
   --color-bg: #E0C097;
   --color-base: #2D2424;
   --color-primary: #5C3D2E;
+  --color-primary-dark: #412b21;
   --color-secondary: #B85C38;
   --color-secondary-dark: #8f482c;
   --color-text-primary: #ffdfb5;
@@ -16,9 +17,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 0;
+  outline-color: transparent;
   text-decoration: none;
   list-style: none;
-  /* background: rgb(0 100 0 / 0.05) !important; */
+
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 html:focus-within {
@@ -34,11 +39,6 @@ body {
   font-size: 1.1rem;
 }
 
-#root {
-  min-height: 100vh;
-  display: grid;
-  place-content: center;
-}
 
 
 /* pomocnicze */
