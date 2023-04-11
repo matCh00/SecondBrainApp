@@ -40,6 +40,12 @@ body {
 }
 
 
+#home {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
 
 /* pomocnicze */
 .bg-base {
