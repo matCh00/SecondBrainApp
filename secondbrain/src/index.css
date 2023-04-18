@@ -1,3 +1,9 @@
+@import "primereact/resources/themes/luna-amber/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex";
+
+
 :root {
   --color-bg: #E0C097;
   --color-base: #2D2424;
@@ -48,10 +54,10 @@ body {
 
 
 /* pomocnicze */
-.bg-base {
+.bcg-base {
   background: var(--color-base);
 }
-.bg-primary {
+.bcg-primary {
   background: var(--color-primary);
 }
 .clr-base {
@@ -73,4 +79,31 @@ body {
 
 h4 {
   font-weight: var(--fw);
+}
+
+
+.resize {
+  resize: vertical;
+  overflow: auto;
+  min-height: 10vh;
+}
+
+
+.p-card {
+  background: var(--color-primary);
+}
+.p-fieldset {
+  background: var(--color-primary-dark);
+}
+.p-fieldset .p-fieldset-legend {
+  padding: 0.4rem 1rem;
+  background: var(--color-base);
+  font-weight: 600;
+  margin-left: -1px;
+}
+.p-card .p-card-content {
+  padding-bottom: 0;
+}
+.p-card .p-card-body {
+  padding-bottom: 0.2rem;
 }

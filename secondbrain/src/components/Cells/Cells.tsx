@@ -8,7 +8,7 @@ export class Cells extends Component {
     return (
       <>
         <Cell 
-          classes='bg-primary' 
+          classes='bcg-primary' 
           link='/SecondBrainApp/angular'
           content={
             <>
@@ -19,7 +19,7 @@ export class Cells extends Component {
           />
 
         <Cell 
-          classes='bg-primary' 
+          classes='bcg-primary' 
           link='/SecondBrainApp/css'
           content={
             <>
@@ -30,7 +30,7 @@ export class Cells extends Component {
           />
 
         <Cell 
-          classes='bg-primary' 
+          classes='bcg-primary' 
           link='/SecondBrainApp/html'
           content={
             <>
@@ -41,7 +41,7 @@ export class Cells extends Component {
           />
 
         <Cell 
-          classes='bg-primary' 
+          classes='bcg-primary' 
           link='/SecondBrainApp/react'
           content={
             <>
@@ -52,7 +52,7 @@ export class Cells extends Component {
           />
 
         <Cell   
-          classes='bg-primary' 
+          classes='bcg-primary' 
           link='/SecondBrainApp/reactnative'
           content={
             <>
@@ -63,7 +63,7 @@ export class Cells extends Component {
           />
 
         <Cell  
-          classes='bg-primary' 
+          classes='bcg-primary' 
           link='/SecondBrainApp/flutter'
           content={
             <>
@@ -74,7 +74,7 @@ export class Cells extends Component {
           />
 
         <Cell  
-          classes='bg-primary' 
+          classes='bcg-primary' 
           link='/SecondBrainApp/csharp'
           content={
             <>

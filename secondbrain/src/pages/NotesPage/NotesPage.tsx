@@ -27,20 +27,20 @@ const NotesPage = () => {
   }, [id]);
 
   return (
-    <>
+    <div className='p-5'>
       {notesFiltered.map(n => {
         return (
-          <Card title={n.name} key={n.name}>
+          <Card title={n.name} key={n.name} className='mb-5'>
 
               {n.codes.map((i, index) => {
                 return (
 
                   <Fieldset legend={i.language} key={i.code + index} className='mb-3'>
                     <Editor
-                      height={'10vh'}
                       language={i.language}
                       value={i.code}
                       theme='vs-dark'
+                      className='resize'
                     />
                   </Fieldset>
                 )
@@ -48,7 +48,7 @@ const NotesPage = () => {
           </Card>
         )
       })}
-    </>
+    </div>
   )
 };
 

@@ -1,5 +1,5 @@
 /* główny grid */
-.grid {
+.grid-custom {
   display: grid;
   gap: 1.5rem;
   grid-auto-columns: 1fr;
@@ -43,7 +43,7 @@
 
 
 @media screen and (min-width: 25em) {
-  .grid {
+  .grid-custom {
     grid-template-areas:
       "one"
       "two"
@@ -56,7 +56,7 @@
 }
 
 @media screen and (min-width: 50em) {
-  .grid {
+  .grid-custom {
     grid-template-areas:
       "one one"
       "two three"
@@ -66,7 +66,7 @@
 }
 
 @media screen and (min-width: 75em) {
-  .grid {
+  .grid-custom {
     grid-template-areas:
       "one two three seven"
       "one four five six";
