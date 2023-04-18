@@ -1,5 +1,5 @@
 # SecondBrainApp
-React + TypeScript
+React + TypeScript + PrimeReact
 
 ### [matCh00.github.io/SecondBrainApp](https://match00.github.io/SecondBrainApp/)
 
