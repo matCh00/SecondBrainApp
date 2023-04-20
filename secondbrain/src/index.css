@@ -101,9 +101,16 @@ h4 {
   font-weight: 600;
   margin-left: -1px;
 }
+.p-panel .p-panel-content {
+  background: var(--color-primary-dark);
+}
 .p-card .p-card-content {
   padding-bottom: 0;
+  padding-top: 0.2rem;
 }
 .p-card .p-card-body {
   padding-bottom: 0.2rem;
+}
+.p-inputtext {
+  background: var(--color-primary-dark);
 }
