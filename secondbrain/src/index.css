@@ -94,12 +94,16 @@ h4 {
 }
 .p-fieldset {
   background: var(--color-primary-dark);
+  margin-block: 1rem;
 }
 .p-fieldset .p-fieldset-legend {
-  padding: 0.4rem 1rem;
+  padding: 0.3rem 1rem;
   background: var(--color-base);
   font-weight: 600;
   margin-left: -1px;
+}
+.p-fieldset .p-fieldset-content {
+  padding: 0.6rem;
 }
 .p-panel .p-panel-content {
   background: var(--color-primary-dark);
@@ -113,4 +117,5 @@ h4 {
 }
 .p-inputtext {
   background: var(--color-primary-dark);
+  border: none;
 }

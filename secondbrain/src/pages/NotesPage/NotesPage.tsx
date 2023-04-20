@@ -7,6 +7,7 @@ import { INoteGroup } from '../../models/INote';
 import { Card } from 'primereact/card';
 import Editor from "@monaco-editor/react";
 import { InputText } from 'primereact/inputtext';
+import { Fieldset } from 'primereact/fieldset';
 
 const NotesPage = () => {
 
@@ -51,13 +52,14 @@ const NotesPage = () => {
               {n.codes.map((i, index) => {
                 return (
 
-                  <Editor
-                    key={i.code + index}
-                    language={i.language}
-                    value={i.code}
-                    theme='vs-dark'
-                    className='resize mb-3'
-                  />
+                  <Fieldset legend={i.file} key={i.code + index}>
+                    <Editor
+                      language={i.language}
+                      value={i.code}
+                      theme='vs-dark'
+                      className='resize'
+                    />
+                  </Fieldset>
                 )
               })}
           </Card>

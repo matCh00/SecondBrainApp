@@ -8,10 +8,11 @@
 .cell-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 
   white-space: nowrap;
+  height: 100%;
 }
 
 .cell:hover {
