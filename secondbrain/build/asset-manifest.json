@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SecondBrainApp/static/css/main.9776a004.css",
-    "main.js": "/SecondBrainApp/static/js/main.acd30e63.js",
+    "main.css": "/SecondBrainApp/static/css/main.c813dd68.css",
+    "main.js": "/SecondBrainApp/static/js/main.2367d545.js",
     "static/media/primeicons.svg": "/SecondBrainApp/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/primeicons.eot": "/SecondBrainApp/static/media/primeicons.d44157bdfa026dc877af.eot",
     "static/media/primeicons.woff": "/SecondBrainApp/static/media/primeicons.10d3152104f2208ac82a.woff",
@@ -9,11 +9,11 @@
     "static/media/primeicons.woff2": "/SecondBrainApp/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "static/media/color.png": "/SecondBrainApp/static/media/color.6441e63a57ccc5105bad.png",
     "index.html": "/SecondBrainApp/index.html",
-    "main.9776a004.css.map": "/SecondBrainApp/static/css/main.9776a004.css.map",
-    "main.acd30e63.js.map": "/SecondBrainApp/static/js/main.acd30e63.js.map"
+    "main.c813dd68.css.map": "/SecondBrainApp/static/css/main.c813dd68.css.map",
+    "main.2367d545.js.map": "/SecondBrainApp/static/js/main.2367d545.js.map"
   },
   "entrypoints": [
-    "static/css/main.9776a004.css",
-    "static/js/main.acd30e63.js"
+    "static/css/main.c813dd68.css",
+    "static/js/main.2367d545.js"
   ]
 }

@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './notesPage.css';
 import { getNotes } from '../../backend/api';
 import { types } from '../../models/Types';
 import { INoteGroup } from '../../models/INote';
 import { Card } from 'primereact/card';
-import Editor from "@monaco-editor/react";
+import Editor, { Monaco } from "@monaco-editor/react";
+import { editor } from 'monaco-editor';
 import { InputText } from 'primereact/inputtext';
 import { Fieldset } from 'primereact/fieldset';
 
@@ -18,6 +19,20 @@ const NotesPage = () => {
 
   let { id } = useParams();
 
+
+  const monacoRef = useRef<editor.IStandaloneCodeEditor | null>(null);
+
+  function handleEditorWillMount(monaco: Monaco) {
+    monaco.languages.typescript?.typescriptDefaults?.setDiagnosticsOptions({
+      noSemanticValidation: true,
+      noSyntaxValidation: true,
+    });
+  }
+
+  function handleEditorDidMount(editor: editor.IStandaloneCodeEditor, monaco: Monaco) {
+    monacoRef.current = editor;
+  }
+  
 
   /** po każdej zmianie params */
   useEffect (() => {
@@ -58,6 +73,8 @@ const NotesPage = () => {
                       value={i.code}
                       theme='vs-dark'
                       className='resize'
+                      beforeMount={handleEditorWillMount}
+                      onMount={handleEditorDidMount}
                     />
                   </Fieldset>
                 )
